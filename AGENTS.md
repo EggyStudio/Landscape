@@ -33,7 +33,10 @@ runs the tests on Linux, Windows and macOS on every push (NORM.md, N 6.1 and N 6
 
 | Path | Holds |
 |---|---|
-| `.github` | The documents above but the README |
+| `.github` | The documents above but the README, and the build workflow |
+| `Landscape` | The library, `Landscape.csproj` |
+| `Landscape.Tests` | The xunit tests of the library |
+| `build` | The version, `version.txt`'s major and minor set by hand and `version.sh`, which prints it with the patch counted from the history |
 
 ## Conventions
 
