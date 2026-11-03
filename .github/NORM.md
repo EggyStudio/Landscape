@@ -1,10 +1,10 @@
 # Norm
 
 The rules this module keeps, each with a number, a reason and what checks it, written by the session
-that writes [REVIEW.md](REVIEW.md). The text is the same in the six module repositories, Modeling,
-Vegetation, Levels, Landscape, RadianceCascades and Tools. The rules are the engines' of the same
-number, from the norm BevyCSharp and 3DEngine share, taken where they fit a library both engines
-use; a rule the engines have and this file does not is not asked of the module.
+that writes [REVIEW.md](REVIEW.md). The text is the same in the seven module repositories, Modeling,
+Vegetation, Levels, Landscape, RadianceCascades, Sky and Tools. The rules are the engines' of the
+same number, from the norm BevyCSharp and 3DEngine share, taken where they fit a library both
+engines use; a rule the engines have and this file does not is not asked of the module.
 
 ## Scope
 
@@ -184,5 +184,4 @@ window alone shows.** The owner's word of 2026-10-30. By review.
 ## How the norm changes
 
 The reviewing session adds a rule alone when the rule comes with its check and no existing code
-breaks it. A rule that existing code breaks, or that touches what is the owner's (dependencies, the
-license, AGENTS.md, what the engines take), waits for the owner's word.
+breaks it. A rule that existing code breaks, or that touches what is the owner's (dependencies, the repository's terms, AGENTS.md, what the engines take), waits for the owner's word.
